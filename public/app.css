@@ -1,0 +1,93 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  text-shadow: 0 0.05rem 0.1rem rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  background-image: url(pexels-travis-blessing-1363876.jpg);
+  background-size: cover;
+  font-weight: 100;
+}
+
+.upper-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.contents {
+  padding: 0%;
+  justify-content: initial;
+}
+
+h1 {
+  margin: 0;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 100;
+  padding-top: 150px;
+}
+
+.lead {
+  margin: 0;
+  font-size: 35px;
+  padding-top: 100px;
+  font-style: normal;
+  padding: 50px;
+}
+
+.photo-ref {
+  font-size: 20px;
+  padding-top: 250px;
+  text-align: right;
+}
+
+.form {
+  border-color:white;
+  border-right: transparent;
+  border-bottom: transparent;
+  border-top: transparent;
+  width: 500px;
+  font-size: 2em;
+  color: white;
+  background: transparent;
+  padding: 10px;
+  /* padding-top: ; */
+  align-items: center;
+  text-align: center;
+}
+a:hover {
+  color: rgb(255, 173, 105);
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  line-height: 1;
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 25px;
+  color: rgb(66, 69, 86);
+  padding: 10px 7px;
+  background: rgb(253, 253, 253);
+  border-radius: 3px;
+  opacity: 0.8;
+  font-family: "Quicksand", sans-serif;
+}
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(98, 224, 98);
+}
+input[type="text"]:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.8);
+}
+
+::placeholder {
+  font-family: "Quicksand", sans-serif;
+}

@@ -1,0 +1,31 @@
+<head>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:100,300,400"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/app.css" />
+</head>
+
+<body>
+  <div class="upper-body">
+    <div class="contents">
+      <h1>Join the mailing list for updates on upcoming products and offers</h1>
+      <p class="lead">
+        Enjoy new and exiting offers with <strong><%= count %></strong> other
+        customers.
+      </p>
+      <form method="POST" action="/register">
+        <input type="text" class="form" name="email" placeholder="Email" />
+        <button>Subscribe</button>
+      </form>
+      <p class="photo-ref">
+        Photo by
+        <a href="https://www.pexels.com/@kratz">Travis Blessing</a>
+        from
+        <a href="https://www.pexels.com/photo/calm-body-of-water-1363876"
+          >Pexels</a
+        >
+      </p>
+    </div>
+  </div>
+</body>
